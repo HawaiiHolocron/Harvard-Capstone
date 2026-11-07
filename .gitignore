@@ -1,0 +1,19 @@
+# R session files
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Knitting artifacts
+*_cache/
+*_files/
+*.log
+*.tex
+
+# MovieLens data (downloaded at runtime, not redistributed)
+ml-10M100K/
+ml-10M100K.zip
+
+# OS / editor
+.DS_Store
+.vscode/

@@ -43,7 +43,7 @@ library(gbm)
 
 raw_file <- "exoplanets_raw.csv"
 
-github_url <- "https://raw.githubusercontent.com/YOUR-GITHUB-USERNAME/YOUR-REPO/main/exoplanets_raw.csv"
+github_url <- "https://raw.githubusercontent.com/RomainYoung/Harvard-Capstone/main/exoplanet/exoplanets_raw.csv"
 nasa_url <- paste0(
   "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=",
   "select+pl_name,hostname,discoverymethod,disc_year,pl_orbper,",
