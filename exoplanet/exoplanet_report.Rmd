@@ -41,7 +41,7 @@ The core task is a regression problem: predict `log10(planet mass in Earth masse
 ```{r download-data, cache=TRUE}
 raw_file <- "exoplanets_raw.csv"
 
-github_url <- "https://raw.githubusercontent.com/RomainYoung/Harvard-Capstone/main/exoplanet/exoplanets_raw.csv"
+github_url <- "https://raw.githubusercontent.com/HawaiiHolocron/Harvard-Capstone/main/exoplanet/exoplanets_raw.csv"
 nasa_url <- paste0(
   "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=",
   "select+pl_name,hostname,discoverymethod,disc_year,pl_orbper,",
